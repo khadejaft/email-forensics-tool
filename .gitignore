@@ -1,0 +1,48 @@
+# Python cache files
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor files
+
+.vscode/
+.idea/
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+# Python packaging
+
+*.egg-info/
+dist/
+build/
+
+# Project-generated data
+
+scan_history.json
+forensic_reports/
+
+# Logs
+
+*.log
+
+# Environment / secret files
+
+.env
+.env.*
+
+# Temporary files
+
+*.tmp
+*.temp
+*.bak
