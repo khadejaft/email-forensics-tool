@@ -1,8 +1,8 @@
-# 🔐 Email Forensics & Phishing Detection Tool
+#  Email Forensics & Phishing Detection Tool
 
 A Python-based cybersecurity tool designed to analyze suspicious emails, investigate email headers, identify potential phishing indicators, and generate forensic reports.
 
-## 📌 Overview
+##  Overview
 
 The **Email Forensics & Phishing Detection Tool** is a cybersecurity project focused on analyzing email data for indicators of phishing and other suspicious activity.
 
@@ -10,17 +10,17 @@ The tool provides a structured workflow for examining email content and headers,
 
 This project demonstrates practical concepts in **Email Security, Digital Forensics, Phishing Detection, Threat Analysis, and Security Automation**.
 
-## 🚀 Key Features
+##  Key Features
 
-* 📧 **Email Parsing** — Extracts relevant information from email data.
-* 🔎 **Header Analysis** — Examines email headers for useful forensic information.
-* 🛡️ **Threat Detection** — Identifies potential phishing and suspicious indicators.
-* 📊 **Forensic Analysis** — Organizes analysis results for investigation.
-* 📄 **Report Generation** — Generates reports based on the analysis.
-* 🗂️ **Scan History** — Maintains a record of previous scans.
-* 🖥️ **User Interface** — Provides an interface for interacting with the tool.
+*  **Email Parsing** — Extracts relevant information from email data.
+*  **Header Analysis** — Examines email headers for useful forensic information.
+*  **Threat Detection** — Identifies potential phishing and suspicious indicators.
+*  **Forensic Analysis** — Organizes analysis results for investigation.
+* **Report Generation** — Generates reports based on the analysis.
+*  **Scan History** — Maintains a record of previous scans.
+*  **User Interface** — Provides an interface for interacting with the tool.
 
-## 🧠 Cybersecurity Concepts Demonstrated
+##  Cybersecurity Concepts Demonstrated
 
 This project applies several practical cybersecurity concepts:
 
@@ -33,10 +33,10 @@ This project applies several practical cybersecurity concepts:
 * Suspicious indicator identification
 * Forensic report generation
 
-## ⚙️ How It Works
+##  How It Works
 
 ```text
-          📧 Email Input
+           Email Input
                 │
                 ▼
         ┌─────────────────┐
@@ -62,7 +62,7 @@ This project applies several practical cybersecurity concepts:
           📝 Scan History
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Email_Forensics_Tool/
@@ -92,7 +92,7 @@ Email_Forensics_Tool/
 | `report_ui.py`        | Handles the report-related interface              |
 | `ui_components.py`    | Contains reusable UI components                   |
 
-## 🛠️ Technologies & Tools
+##  Technologies & Tools
 
 * **Python**
 * Email Analysis
@@ -102,7 +102,7 @@ Email_Forensics_Tool/
 * Threat Detection
 * Security Automation
 
-## 💻 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -138,7 +138,7 @@ For systems using `python3`:
 python3 main.py
 ```
 
-## 🔍 Example Workflow
+##  Example Workflow
 
 The tool follows a basic forensic investigation process:
 
@@ -149,7 +149,7 @@ The tool follows a basic forensic investigation process:
 5. Generate a forensic report.
 6. Store the scan information for future reference.
 
-## 🎯 Project Objective
+##  Project Objective
 
 The primary objective of this project was to develop a practical tool that demonstrates how cybersecurity techniques can be applied to **email investigation and phishing detection**.
 
@@ -161,7 +161,7 @@ It was also designed to provide hands-on experience with:
 * Threat detection
 * Security-focused application development
 
-## 👥 Team
+##  Team
 
 This project was developed collaboratively by:
 
@@ -170,7 +170,7 @@ This project was developed collaboratively by:
 
 Both team members contributed to the development of the project.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Potential future improvements could include:
 
@@ -190,16 +190,16 @@ This project is intended for **educational, research, and authorized cybersecuri
 
 Do not use the tool to analyze emails or data without appropriate authorization.
 
-## 📚 Project Category
+##  Project Category
 
 **Cybersecurity | Email Security | Digital Forensics | Phishing Detection | Threat Analysis | Python**
 
 ---
 
-### 👩‍💻 Contributors
+###  Contributors
 
 **Khadija Fatima**
 Cybersecurity Student
 
 **Rameen**
-Project Contributor
+Cybersecurity Student
