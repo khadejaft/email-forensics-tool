@@ -1,0 +1,89 @@
+================================================================================
+EMAIL FORENSICS ANALYSIS REPORT - ADVANCED THREAT DETECTION
+================================================================================
+
+Report Generated: 2026-06-18 23:49:28
+Analyzed File: Thanks for your recent contributions.eml
+
+--------------------------------------------------------------------------------
+RISK ASSESSMENT SUMMARY
+--------------------------------------------------------------------------------
+Risk Score: 0/100
+Confidence Score: 100/100
+Risk Level: LOW
+
+--------------------------------------------------------------------------------
+EMAIL HEADERS
+--------------------------------------------------------------------------------
+Delivered-To: muhammadkhansahab10@gmail.com
+Received: from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])        by mx.google.com with SMTPS id 46e09a7af769-7e6e77cc1ebsor10785212a34.5.2026.06.09.09.43.52        for <muhammadkhansahab10@gmail.com>        (Google Transport Security);        Tue, 09 Jun 2026 09:43:52 -0700 (PDT)
+X-Received: by 2002:a05:6820:138c:b0:69e:3c64:7f60 with SMTP id 006d021491bc7-69e68c58c92mr13139776eaf.46.1781023432548; Tue, 09 Jun 2026 09:43:52 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1781023432; cv=none;        d=google.com; s=arc-20240605;        b=O4gw2zdCfW62uyPpDL+iM3drqN+4v5Q3AVPNJjK0RgOG8bjbYp3Wgnr9vOr/3002nr         hT+8hLWEvTewZ7aEt8bWwdXtyvRdLuS2fhutlUsUMUwwfGrH2g/jf/QQuIp+ahY40eu/         rJ4LQzZuVMWnW4vk9Ed8OYGtFsOjP9B2U3ul65diTby/o6J07HAjZ4b8qwHFGj4MHYfP         PInoI9C+auEau1Pn8jC0dNiDVMaQq4bFD0EBwv2X1dLJA+6Y5pGF2n9U/zKr1esCnPE9         yUlER562G4VCcPtwMuxIvWE+kYitgLH0pxAC4jfeZ/blZzPqyJ7Y71/CGNZI4cZqlakP         Jwtg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=to:from:subject:message-id:gmsai:list-id:feedback-id:precedence         :list-unsubscribe:list-unsubscribe-post:reply-to:date:mime-version         :dkim-signature;        bh=eenDLuP7MyFSMWDRxWxD36JgstbkIWG3avQe98h5z50=;        fh=P0h/5T4PKb+HKvmMFSXyBjncENbzZ++LZhkgx9ufEx4=;        b=ACOpNI88Utr6YrwRw/IdS4LsMXLD1fXrKMgmPrZmIu9G/ojcnJP6fNAs4xA08rrlQ0         NYyHaIQODMLF47FUcEXujP1tZUPsWNoYzZ+L5j+Z1SfbJAMR9q9I+W9z2rsw9OmQw9m5         OyYSfy2FsGdJEz2QRkuTObT5IKHvSQtYwleh/d1yD+aoQ9hQQ9giryLnSWvrykn4CA7v         YnreyPDh9F2tMBhkt04ar3KcKebTQUwoIXrk+AqQ8ZKI6ITZ6CRkqBv8FVjyH/YY5czZ         cOMNfp6ZYj29S4rxXvWCbQvIkrys4plmlfZ0pb8/2BdEvG9yze9j8EaJZO5s9/7mhSpx         1gwg==;        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;       dkim=pass header.i=@google.com header.s=20251104 header.b=U3iQlf0s;       spf=pass (google.com: domain of 3yeioahmkaecpxxpun-vjy1-wx0nyu7pxxpun.lxv@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3yEIoahMKAEcpxxpun-vjy1-wx0nyu7pxxpun.lxv@scoutcamp.bounces.google.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;       dara=pass header.i=@gmail.com
+Return-Path: <3yEIoahMKAEcpxxpun-vjy1-wx0nyu7pxxpun.lxv@scoutcamp.bounces.google.com>
+Received-SPF: pass (google.com: domain of 3yeioahmkaecpxxpun-vjy1-wx0nyu7pxxpun.lxv@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;
+Authentication-Results: mx.google.com;       dkim=pass header.i=@google.com header.s=20251104 header.b=U3iQlf0s;       spf=pass (google.com: domain of 3yeioahmkaecpxxpun-vjy1-wx0nyu7pxxpun.lxv@scoutcamp.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3yEIoahMKAEcpxxpun-vjy1-wx0nyu7pxxpun.lxv@scoutcamp.bounces.google.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=google.com; s=20251104; t=1781023432; x=1781628232; dara=google.com;        h=to:from:subject:message-id:gmsai:list-id:feedback-id:precedence         :list-unsubscribe:list-unsubscribe-post:reply-to:date:mime-version         :from:to:cc:subject:date:message-id:reply-to;        bh=eenDLuP7MyFSMWDRxWxD36JgstbkIWG3avQe98h5z50=;        b=U3iQlf0s7cFYBocy0JL0jepduJvS2uKPEGRxSq1JEvcP/yLRvuikxyPnvT6dSo194N         nTMgYAm3Fz/LfWlyBnvzlVGSIPrS0zxaiWkvfoCkgyMdw7fkiNHbrepZexAHr/sxEYWI         ZB595gO8oDs7G6FTjSPZF3XCXbkFeYMlbzcqY2RkD9xM9+8S5Da3HgnH2ccVvcfBuRAw         hZ1F3SyeevQ6dMxKMprQuUHWDZx3I4ldnuU0t3Qtjl2puEJxv5oJxvvX4Pew/r0Q1idR         oONVvHc0wPPdF6DNiTKx293atR+fEpV/uEWPGC+GWDN3AN3ioNJ68Guo/u06jVY1R8s3         E5PQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20251104; t=1781023432; x=1781628232;        h=to:from:subject:message-id:gmsai:list-id:feedback-id:precedence         :list-unsubscribe:list-unsubscribe-post:reply-to:date:mime-version         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;        bh=eenDLuP7MyFSMWDRxWxD36JgstbkIWG3avQe98h5z50=;        b=fw3OByq8Plh2l7ljZ2t7abnqvQT5e56V4D4aQrZZpxdD52vH4/Mfmn560ROcJ2K33h         /+YJuzTQs5VoReJrcDVy4sEZgWrrEnvW3xCRf8W63S6rCEYi/r6JqF/YtOLpHglGWNX3         rHPD/X62QeavmD1XY8HhmsYVfDG8nQz3cZSBPeLc3JFBpdMk5xv0Q+T/FQaCWlrTB+Na         p9Oe7jYOAdxdUR/0a2w1+BD1zdh2EhV0qPH0YtgF7Nsg84NSSatmqNjwq7aAWHOCJw5/         Z0WDlW6NEvJU4o/p6GJg7Pa0uqBBzLJMMvyheMOHTVGaFmCbqw4hFLXnTWBNJV5Jk0s2         6LcQ==
+X-Gm-Message-State: AOJu0Yxe+0o/21JYbKrVf2E1Q702y0toWhfOziDcctzqnSBkaQhGzXpg	ZCPSmpYEszX8BgXvkClz1kt1IHbjTjGL6QIcDNd/R3q4QZRUSGFBIJPiq/fn
+MIME-Version: 1.0
+Date: Tue, 09 Jun 2026 09:43:52 -0700
+Reply-To: Google Maps <google-maps-noreply@google.com>
+
+--------------------------------------------------------------------------------
+EXTRACTED URLS
+--------------------------------------------------------------------------------
+• https://c.gle/AOPyDKQQ_g9-n0-1EThOReq8mDexFZh99uEPPO62GDTrjnli_n2SHkbqANYZNkCY87XjgdC7osZPHar7GeWoKg3rHWdLhwlNUkNEUvk6-ZfKg3QaShMcpSf8J1xY2iDdk1UvbG70iUCIOaa3s-RERiKG8_PANyUSQrBxK4LnaS2lqNND
+• https://www.w3.org/1999/xhtml
+• https://www.google.com/local/guides/thankyou.html?hl=en_us&link_loc=helpful-yes
+• https://www.google.com/maps/contrib/118399423776804210262/contribute/
+• https://www.gstatic.com/growthlab/api/kN4mq0CABR9MiSQrWhMP4tf0XOmmRfFPzbcbCXTB.png&#39;);
+• https://myaccount.google.com/communication-preferences/unsubscribe/gt/AOPyDKQCRvOcoeJaMLW0Ne-UuyEjKM87o22vcyH0SdsE9jdM0SFD94_d7krBMi9PbM8pvCt54jvFYeX3t9Xf_MtaAFqieAS6pjBXOaFxxQ4lU9J9N0w5oxQZkeyYBKKicpPS0P4Xuz9lrnDT4kgMJVeEAiUOCFWQ1Xtizt_KK6vL4fuPcB8IKj8hx_zVg4v2u3qMjG6GA8ocIumtr4svUEdksCISIytlma7R5Fo0llbhNgJF_212zhC1sxSfKx2SyTICqr9R47M2VAw?utm_source=gm&utm_medium=email&auto=true
+• https://maps.googleapis.com/maps/api/staticmap?maptype=roadmap&amp;style=feature:poi.business%7Cvisibility:off&amp;style=feature:poi.park%7Celement:labels.text%7Cvisibility:off&amp;markers=icon:https%3A%2F%2Fservices.google.com%2Ffh%2Ffiles%2Femails%2Flg-google-map-pin-transparent.svg%7C24.9192051,67.0915807&amp;size=500x300&amp;key=AIzaSyDa4iz3jtPdhm9TbosAa1obfDXn9GlGATo&amp;signature=6q908DCUnFbD2mhdM8Fj_Vb5TRE=
+• https://www.gstatic.com/gumdrop/files/lg-google-map-logo-blank-transparent-w290px-h84px-2x.png
+• https://www.gstatic.com/growthlab/api/glDPXKOnATq2Tz3MtxJbgUA3IZKswxu4OB9Vem4u.png
+• https://gstatic.com/growthlab/api/E7yXHhDjLtQTm7eJUJ3VRCvweTTutAUM830Q0VlD.png
+• https://www.gstatic.com/growthlab/api/kN4mq0CABR9MiSQrWhMP4tf0XOmmRfFPzbcbCXTB.png
+• https://www.gstatic.com/growthlab/api/NojGUsWLqnlkWkFiaOFwL3e2aJqHq79koJyEcpX5.png&#39;);
+• https://support.google.com/maps/answer/7513293
+• https://c.gle/AOPyDKRPl9l_TsAOWb8r5H7kSWk7YruKFAx_93PoZ1gSc26Qh5fBL_Yj85m9s7jA_c28RG2xgZePbIDutFjLT2jH2CmVIqnTAyO8W9pXRvI54AzdTBZKOxJ-5_4AC2rlKKhooWR1BiOphXMJbb3I
+• https://www.gstatic.com/growthlab/api/wcxCKQZxLvYY4Oa7PSEzUfH1ZxsZWx3AnH9V8Ct5.png
+• http://search.google.com/local/writereview?placeid=ChIJbfhgo2I_sz4RN0-5_yvzqN8
+• https://www.gstatic.com/growthlab/api/NojGUsWLqnlkWkFiaOFwL3e2aJqHq79koJyEcpX5.png
+• https://www.gstatic.com/growthlab/api/OimeVtuKGIHNzKZdTn9ghDD8ji1shngrQSXNtwjb.png
+• https://lh3.googleusercontent.com/a/ACg8ocLkSl5ibvsx5I49yEDvEOIVEJik-monZwWSOk3WT2RzYP4W8fg=mo
+• https://www.gstatic.com/growthlab/api/wcxCKQZxLvYY4Oa7PSEzUfH1ZxsZWx3AnH9V8Ct5.png&#39;);
+• https://c.gle/AOPyDKQiyzX41WwPaZwApp27z3zlMf-kvlM6q52EFZyngjBV7j6UM7PqjXK3bm-Rh_0Dd_xG_w9vHcGbu_YEq8ViWiGi1wawt0XhGnd-n3rUCtwF2cbwnVJM1rYiU1adUxoz2ueGNi5fU7KphlwEqSiIjraNd8GgjG7cPA
+• https://www.google.com/maps/contrib/118399423776804210262//
+• https://www.gstatic.com/gumdrop/files/lg-stars-5-yellow-high-transparent-w360px-h51px-2x.png
+• https://myaccount.google.com/communication-preferences/unsubscribe/gt/AOPyDKTl06HUvf2tJW8ylV2ojGxcP8Z2DFmBl_P-vEOQSBo9wOq9U3qpLwSstRCaeH-38xW0V_103TC9v7vsBZrbfOvh6LTyzIvTkXCuGh_bG1hV5oLdGEVDr6JomoB1-jqT4xMNsOYt0W5xnXKmpoZDF_YFGO0JQwO4UUqoJyAoaFmZW2V4rNAj28rcSN6ImMRjqQoYjgJfEAUD1qEM_zcFioyYj3Rzvta6epV1GSRJyR1XWCZmRHvloJTBXHt0KChhj49Dm2zTE6BDgQ?utm_source=gm&amp;utm_medium=email&amp;auto=true
+• https://www.gstatic.com/gumdrop/files/spacer-11.gif
+• https://www.gstatic.com/growthlab/api/1RZ7FAuKREwA2B57mqCwxQwB2pBo6jWNYBfWV9VI.png
+• https://www.google.com/local/guides/thankyou.html?hl=en_us&link_loc=helpful-ok
+• https://www.google.com/maps/contrib/118399423776804210262/todolist/
+• https://notifications.google.com/g/img/AOPyDKTl9xk1ri91hlvg1LCOsrI85qzWDX-y_vAV3WeGlUsBVr-v9NmS8LRyo30o5gnTs4KumKMkrgKdNH_9BKWMHvZ_EqghDb7NKiVr85oEa6PvWjPuyFJYUPjAMlDLJgFyCnH0tw.gif
+• https://www.google.com/localguides/settings
+• https://c.gle/AOPyDKTomnSLvp3tXPzbUFpvwTbsFFqpCGK8fOg2cGZ61Xb-bhb_ZmpseqbGVtK0NgicrAdFk4djHXs_4bFWLYokhVwHxzZyj-QRfs5mohM1lxkeu_TT_JJhWMIjsL2Mu6j0caKak6swhScwaoZPJeqgjYsn-svfOfwqGNMFeMcEI8Torn0
+• https://www.gstatic.com/growthlab/api/ICNPBY1CYjhxi10sllPGN8wZEpYYm29qJE3GpSm2.png
+• https://c.gle/AOPyDKRkLFAdsS2LDn2ZJXl_M90CSH798E5tkRRcglRZ6AKovbAbYLwtCQ47NtrWv6vQOcOFF-kOLYSQWDNLCU3aog382r40hmqWxekWEz7klaTs4LLZebbxd3cjeQIF_qQSR6FBBigeB7Ymb00CD60vVpN5SxuynCnFa-HNRMGjlxNi2xOFKFxRPhiP0HQ
+• https://www.gstatic.com/growthlab/api/DexeH0aGDM6Vh6PnNnX7zidL4gI7uhblpXiOm4F0.png
+• https://www.gstatic.com/growthlab/api/OimeVtuKGIHNzKZdTn9ghDD8ji1shngrQSXNtwjb.png&#39;);
+• https://www.google.com/local/guides/thankyou.html?hl=en_us&link_loc=helpful-no
+• https://c.gle/AOPyDKQ1xzlda4oKBboU63b6KrXrPw1yE6Pv-T6XABRF0ciHVdmVlCZqScJ3Tl5YD5w1fWG_uxRjHiRNSOVdH8vwCyb0cBkk6dsFTerUBolNj0Kep0zNjqGwNLwBcE4KKdEzrmijuylbDaQa
+• https://www.gstatic.com/gumdrop/files/lg-review-l1-new-transparent-w240px-h240px-2x.png
+
+--------------------------------------------------------------------------------
+ATTACHMENTS
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+THREAT DETECTION RESULTS
+--------------------------------------------------------------------------------
+✅ No threats detected
+
+--------------------------------------------------------------------------------
+RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Email appears safe, but always verify suspicious requests
+• Be cautious of unexpected attachments or links

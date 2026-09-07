@@ -1,0 +1,183 @@
+[
+  {
+    "timestamp": "2026-06-21 15:06:29",
+    "file": "bank_phising.eml",
+    "from": "Bank of America Security <alerts@secure-bankofamerica-update.com>",
+    "to": "customer@example.com",
+    "subject": "ATTENTION: Fraud Alert - Your Account Has Been Compromised",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 7,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f IMPERSONATION: 'bank of america security' pretending to be bank of america",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'",
+      "\u26a0\ufe0f Fake sender: 'bank of america security' impersonating bank of america",
+      "\u26a0\ufe0f Urgency tactics detected",
+      "\u26a0\ufe0f Financial information requested"
+    ],
+    "score": 0
+  },
+  {
+    "timestamp": "2026-06-21 15:03:48",
+    "file": "bank_phising.eml",
+    "from": "Bank of America Security <alerts@secure-bankofamerica-update.com>",
+    "to": "customer@example.com",
+    "subject": "ATTENTION: Fraud Alert - Your Account Has Been Compromised",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 7,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f IMPERSONATION: 'bank of america security' pretending to be bank of america",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'",
+      "\u26a0\ufe0f Fake sender: 'bank of america security' impersonating bank of america",
+      "\u26a0\ufe0f Urgency tactics detected",
+      "\u26a0\ufe0f Financial information requested"
+    ],
+    "score": 0
+  },
+  {
+    "timestamp": "2026-06-21 15:02:02",
+    "file": "Security alert.eml",
+    "from": "Google <no-reply@accounts.google.com>",
+    "to": "rameenadnanali2004@gmail.com",
+    "subject": "Security alert",
+    "urls": 5,
+    "attachments": 0,
+    "threats": 0,
+    "threat_list": [],
+    "score": 100
+  },
+  {
+    "timestamp": "2026-06-21 15:01:32",
+    "file": "pay_pal phising.eml",
+    "from": "PayPal Security Team <security@paypal-verify-now.com>",
+    "to": "victim@example.com",
+    "subject": "URGENT: Your PayPal Account Has Been Limited",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 10,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Domain spoofing: paypal-verify-now.com pretending to be paypal.com",
+      "\u26a0\ufe0f IMPERSONATION: 'paypal security team' pretending to be paypal",
+      "\u26a0\ufe0f Brand name 'paypal' in subject but domain is paypal-verify-now.com",
+      "\u26a0\ufe0f Lookalike domain: 'paypal-verify-now.secure-login.com' resembles 'paypal'",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'",
+      "\u26a0\ufe0f Fake sender: 'paypal security team' impersonating paypal",
+      "\u26a0\ufe0f Urgency tactics detected",
+      "\u26a0\ufe0f Financial information requested"
+    ],
+    "score": 0
+  },
+  {
+    "timestamp": "2026-06-21 14:54:22",
+    "file": "pay_pal phising.eml",
+    "from": "PayPal Security Team <security@paypal-verify-now.com>",
+    "to": "victim@example.com",
+    "subject": "URGENT: Your PayPal Account Has Been Limited",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 10,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Domain spoofing: paypal-verify-now.com pretending to be paypal.com",
+      "\u26a0\ufe0f IMPERSONATION: 'paypal security team' pretending to be paypal",
+      "\u26a0\ufe0f Brand name 'paypal' in subject but domain is paypal-verify-now.com",
+      "\u26a0\ufe0f Lookalike domain: 'paypal-verify-now.secure-login.com' resembles 'paypal'",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'",
+      "\u26a0\ufe0f Fake sender: 'paypal security team' impersonating paypal",
+      "\u26a0\ufe0f Urgency tactics detected",
+      "\u26a0\ufe0f Financial information requested"
+    ],
+    "score": 0
+  },
+  {
+    "timestamp": "2026-06-21 14:51:15",
+    "file": "pay_pal phising.eml",
+    "from": "PayPal Security Team <security@paypal-verify-now.com>",
+    "to": "victim@example.com",
+    "subject": "URGENT: Your PayPal Account Has Been Limited",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 8,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Domain spoofing: paypal-verify-now.com pretending to be paypal.com",
+      "\u26a0\ufe0f Lookalike domain: 'paypal-verify-now.secure-login.com' resembles 'paypal'",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'",
+      "\u26a0\ufe0f Fake sender: 'PayPal Security Team' impersonating paypal",
+      "\u26a0\ufe0f Urgency tactics detected",
+      "\u26a0\ufe0f Financial information requested"
+    ],
+    "score": 45
+  },
+  {
+    "timestamp": "2026-06-21 14:41:31",
+    "file": "bank_phising.eml",
+    "from": "Bank of America Security <alerts@secure-bankofamerica-update.com>",
+    "to": "customer@example.com",
+    "subject": "ATTENTION: Fraud Alert - Your Account Has Been Compromised",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 6,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'",
+      "\u26a0\ufe0f Fake sender: 'Bank of America Security' impersonating bank of america",
+      "\u26a0\ufe0f Urgency tactics detected",
+      "\u26a0\ufe0f Financial information requested"
+    ],
+    "score": 65
+  },
+  {
+    "timestamp": "2026-06-21 14:11:03",
+    "file": "bank_phising.eml",
+    "from": "Bank of America Security <alerts@secure-bankofamerica-update.com>",
+    "to": "customer@example.com",
+    "subject": "ATTENTION: Fraud Alert - Your Account Has Been Compromised",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 6,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'",
+      "\u26a0\ufe0f Fake sender: 'Bank of America Security' impersonating bank of america",
+      "\u26a0\ufe0f Urgency tactics detected",
+      "\u26a0\ufe0f Financial information requested"
+    ],
+    "score": 65
+  },
+  {
+    "timestamp": "2026-06-21 14:10:34",
+    "file": "Security alert.eml",
+    "from": "Google <no-reply@accounts.google.com>",
+    "to": "rameenadnanali2004@gmail.com",
+    "subject": "Security alert",
+    "urls": 5,
+    "attachments": 0,
+    "threats": 0,
+    "threat_list": [],
+    "score": 100
+  },
+  {
+    "timestamp": "2026-06-21 13:56:39",
+    "file": "Security alert.eml",
+    "from": "Google <no-reply@accounts.google.com>",
+    "to": "rameenadnanali2004@gmail.com",
+    "subject": "Security alert",
+    "urls": 5,
+    "attachments": 0,
+    "threats": 0,
+    "threat_list": [],
+    "score": 100
+  }
+]

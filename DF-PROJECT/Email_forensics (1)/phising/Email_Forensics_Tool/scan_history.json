@@ -1,0 +1,382 @@
+[
+  {
+    "timestamp": "2026-06-15 20:28:56",
+    "file": "original_msg.eml",
+    "from": "noreply@fbr.gov.pk",
+    "to": "nazduaa89@gmail.com",
+    "subject": "No Subject",
+    "urls": 21,
+    "attachments": 0,
+    "threats": 3,
+    "threat_list": [
+      "\u26a0\ufe0f LINK MISMATCH: 'fbr.gov.pk' links to ''",
+      "\u26a0\ufe0f Suspicious characters in domain: 'help.fbr.gov.pk'",
+      "\u26a0\ufe0f Suspicious characters in domain: 'pral.com.pk'"
+    ],
+    "score": 70
+  },
+  {
+    "timestamp": "2026-06-15 00:46:10",
+    "file": "paypadl email.txt",
+    "from": "PayPal Security <security@paypal-verify-2026.xyz>",
+    "to": "your-email@gmail.com",
+    "subject": "\u26a0\ufe0f URGENT: Your Account Has Been Limited",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 7,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Domain spoofing: paypal-verify-2026.xyz pretending to be paypal.com",
+      "\u26a0\ufe0f Lookalike domain: 'paypal-security-verify.xyz' resembles 'paypal'",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'",
+      "\u26a0\ufe0f Fake sender: 'PayPal Security' impersonating paypal",
+      "\u26a0\ufe0f Financial information requested"
+    ],
+    "score": 45
+  },
+  {
+    "timestamp": "2026-06-15 00:45:48",
+    "file": "email.txt",
+    "from": "Security Team <security@account-alerts.net>",
+    "to": "your-email@gmail.com",
+    "subject": "URGENT: Your Account Will Be Suspended",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 4,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Suspicious characters in domain: 'fake-verify-login.com'",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-15 00:43:25",
+    "file": "Updates to Our Privacy Policy.eml",
+    "from": "Spotify <no-reply@legal.spotify.com>",
+    "to": "nazduaa89@gmail.com",
+    "subject": "Updates to Our Privacy Policy",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Phishing keyword: 'click here'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-15 00:41:11",
+    "file": "Updates to Our Privacy Policy.eml",
+    "from": "Spotify <no-reply@legal.spotify.com>",
+    "to": "nazduaa89@gmail.com",
+    "subject": "Updates to Our Privacy Policy",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Phishing keyword: 'click here'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-15 00:40:11",
+    "file": "original_msg.eml",
+    "from": "noreply@fbr.gov.pk",
+    "to": "nazduaa89@gmail.com",
+    "subject": "No Subject",
+    "urls": 21,
+    "attachments": 0,
+    "threats": 3,
+    "threat_list": [
+      "\u26a0\ufe0f LINK MISMATCH: 'fbr.gov.pk' links to ''",
+      "\u26a0\ufe0f Suspicious characters in domain: 'help.fbr.gov.pk'",
+      "\u26a0\ufe0f Suspicious characters in domain: 'pral.com.pk'"
+    ],
+    "score": 70
+  },
+  {
+    "timestamp": "2026-06-15 00:25:51",
+    "file": "Updates to Our Privacy Policy.eml",
+    "from": "Spotify <no-reply@legal.spotify.com>",
+    "to": "nazduaa89@gmail.com",
+    "subject": "Updates to Our Privacy Policy",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Phishing keyword: 'click here'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-15 00:21:34",
+    "file": "paypadl email.txt",
+    "from": "PayPal Security <security@paypal-verify-2026.xyz>",
+    "to": "your-email@gmail.com",
+    "subject": "\u26a0\ufe0f URGENT: Your Account Has Been Limited",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 7,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Domain spoofing: paypal-verify-2026.xyz pretending to be paypal.com",
+      "\u26a0\ufe0f Lookalike domain: 'paypal-security-verify.xyz' resembles 'paypal'",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'",
+      "\u26a0\ufe0f Fake sender: 'PayPal Security' impersonating paypal",
+      "\u26a0\ufe0f Financial information requested"
+    ],
+    "score": 45
+  },
+  {
+    "timestamp": "2026-06-15 00:10:49",
+    "file": "Updates to Our Privacy Policy.eml",
+    "from": "Spotify <no-reply@legal.spotify.com>",
+    "to": "nazduaa89@gmail.com",
+    "subject": "Updates to Our Privacy Policy",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Phishing keyword: 'click here'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-14 23:52:01",
+    "file": "paypadl email.txt",
+    "from": "PayPal Security <security@paypal-verify-2026.xyz>",
+    "to": "your-email@gmail.com",
+    "subject": "\u26a0\ufe0f URGENT: Your Account Has Been Limited",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 7,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Domain spoofing: paypal-verify-2026.xyz pretending to be paypal.com",
+      "\u26a0\ufe0f Lookalike domain: 'paypal-security-verify.xyz' resembles 'paypal'",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'",
+      "\u26a0\ufe0f Fake sender: 'PayPal Security' impersonating paypal",
+      "\u26a0\ufe0f Financial information requested"
+    ],
+    "score": 45
+  },
+  {
+    "timestamp": "2026-06-14 23:47:16",
+    "file": "Updates to Our Privacy Policy.eml",
+    "from": "Spotify <no-reply@legal.spotify.com>",
+    "to": "nazduaa89@gmail.com",
+    "subject": "Updates to Our Privacy Policy",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Phishing keyword: 'click here'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-14 23:46:13",
+    "file": "email.txt",
+    "from": "Security Team <security@account-alerts.net>",
+    "to": "your-email@gmail.com",
+    "subject": "URGENT: Your Account Will Be Suspended",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 4,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Suspicious characters in domain: 'fake-verify-login.com'",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-14 15:18:59",
+    "file": "emil2.txt",
+    "from": "FedEx Delivery <tracking@fedex-delivery.net>",
+    "to": "your-email@gmail.com",
+    "subject": "Your package could not be delivered",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 3,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Domain spoofing: fedex-delivery.net pretending to be fedex.com",
+      "\u26a0\ufe0f Fake sender: 'FedEx Delivery' impersonating fedex"
+    ],
+    "score": 80
+  },
+  {
+    "timestamp": "2026-06-14 15:00:43",
+    "file": "Updates to Our Privacy Policy.eml",
+    "from": "Spotify <no-reply@legal.spotify.com>",
+    "to": "nazduaa89@gmail.com",
+    "subject": "Updates to Our Privacy Policy",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Phishing keyword: 'click here'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-14 14:57:52",
+    "file": "Updates to Our Privacy Policy.eml",
+    "from": "Spotify <no-reply@legal.spotify.com>",
+    "to": "nazduaa89@gmail.com",
+    "subject": "Updates to Our Privacy Policy",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Phishing keyword: 'click here'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-14 14:56:37",
+    "file": "emil2.txt",
+    "from": "FedEx Delivery <tracking@fedex-delivery.net>",
+    "to": "your-email@gmail.com",
+    "subject": "Your package could not be delivered",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 3,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Domain spoofing: fedex-delivery.net pretending to be fedex.com",
+      "\u26a0\ufe0f Fake sender: 'FedEx Delivery' impersonating fedex"
+    ],
+    "score": 80
+  },
+  {
+    "timestamp": "2026-06-14 14:55:38",
+    "file": "email.txt",
+    "from": "Security Team <security@account-alerts.net>",
+    "to": "your-email@gmail.com",
+    "subject": "URGENT: Your Account Will Be Suspended",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 4,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Suspicious characters in domain: 'fake-verify-login.com'",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-14 14:33:24",
+    "file": "emil2.txt",
+    "from": "FedEx Delivery <tracking@fedex-delivery.net>",
+    "to": "your-email@gmail.com",
+    "subject": "Your package could not be delivered",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 3,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Domain spoofing: fedex-delivery.net pretending to be fedex.com",
+      "\u26a0\ufe0f Fake sender: 'FedEx Delivery' impersonating fedex"
+    ],
+    "score": 80
+  },
+  {
+    "timestamp": "2026-06-14 13:55:28",
+    "file": "emil2.txt",
+    "from": "FedEx Delivery <tracking@fedex-delivery.net>",
+    "to": "your-email@gmail.com",
+    "subject": "Your package could not be delivered",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 3,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Domain spoofing: fedex-delivery.net pretending to be fedex.com",
+      "\u26a0\ufe0f Fake sender: 'FedEx Delivery' impersonating fedex"
+    ],
+    "score": 80
+  },
+  {
+    "timestamp": "2026-06-14 13:52:39",
+    "file": "email.txt",
+    "from": "Security Team <security@account-alerts.net>",
+    "to": "your-email@gmail.com",
+    "subject": "URGENT: Your Account Will Be Suspended",
+    "urls": 1,
+    "attachments": 0,
+    "threats": 4,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f Suspicious characters in domain: 'fake-verify-login.com'",
+      "\u26a0\ufe0f Login page on suspicious domain",
+      "\u26a0\ufe0f Phishing keyword: 'verify your account'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-14 13:36:06",
+    "file": "original_msg.eml",
+    "from": "noreply@fbr.gov.pk",
+    "to": "nazduaa89@gmail.com",
+    "subject": "No Subject",
+    "urls": 21,
+    "attachments": 0,
+    "threats": 3,
+    "threat_list": [
+      "\u26a0\ufe0f LINK MISMATCH: 'fbr.gov.pk' links to ''",
+      "\u26a0\ufe0f Suspicious characters in domain: 'help.fbr.gov.pk'",
+      "\u26a0\ufe0f Suspicious characters in domain: 'pral.com.pk'"
+    ],
+    "score": 70
+  },
+  {
+    "timestamp": "2026-06-14 13:29:46",
+    "file": "Updates to Our Privacy Policy.eml",
+    "from": "Spotify <no-reply@legal.spotify.com>",
+    "to": "nazduaa89@gmail.com",
+    "subject": "Updates to Our Privacy Policy",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Phishing keyword: 'click here'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-14 12:30:56",
+    "file": "Updates to Our Privacy Policy.eml",
+    "from": "Spotify <no-reply@legal.spotify.com>",
+    "to": "nazduaa89@gmail.com",
+    "subject": "Updates to Our Privacy Policy",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Phishing keyword: 'click here'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-14 12:18:39",
+    "file": "Updates to Our Privacy Policy.eml",
+    "from": "Spotify <no-reply@legal.spotify.com>",
+    "to": "nazduaa89@gmail.com",
+    "subject": "Updates to Our Privacy Policy",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Phishing keyword: 'click here'"
+    ],
+    "score": 85
+  }
+]

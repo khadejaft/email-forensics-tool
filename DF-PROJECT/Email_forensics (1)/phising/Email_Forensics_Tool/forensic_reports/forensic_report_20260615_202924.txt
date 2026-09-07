@@ -1,0 +1,79 @@
+================================================================================
+EMAIL FORENSICS ANALYSIS REPORT - ADVANCED THREAT DETECTION
+================================================================================
+
+Report Generated: 2026-06-15 20:29:24
+Analyzed File: original_msg.eml
+
+--------------------------------------------------------------------------------
+RISK ASSESSMENT SUMMARY
+--------------------------------------------------------------------------------
+Risk Score: 30/100
+Confidence Score: 70/100
+Risk Level: LOW
+
+--------------------------------------------------------------------------------
+EMAIL HEADERS
+--------------------------------------------------------------------------------
+Delivered-To: nazduaa89@gmail.com
+Received: from I01-IRIS-SMS02 ([10.100.77.12]) by fbrmail.com with MailEnable ESMTP; Sat, 30 May 2026 15:37:10 +0500
+X-Received: by 2002:a05:6a00:1956:b0:82c:e60c:f36d with SMTP id d2e1a72fcca58-8422574008cmr2934047b3a.48.1780137437143;        Sat, 30 May 2026 03:37:17 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1780137437; cv=none;        d=google.com; s=arc-20240605;        b=IrnbiiuRvUfP5flCMx70lVmlFxP5zXDRqx1FnZ97QfJ3IhzV9emBZPcOcfCEc9X77/         PxAq91V6VOxsTwnmRFQGclSumUVD1EhIU+l625Le20JUpfy6Fk8e+lJWmNtkOX80Omgx         sn4AZfAniteAofH0+4a3XdMFcCwhv3tb232QRZ/Obp2H8AlF6iY582zf3GvxkPSK8mLx         B7MBv0IEiOYZLt1Q6QUvun2muYkekFRDaPb2dkODaFiiOUJ0cYDst2xb0+jZ2tKRwTg5         b+72koWsk87rjOUBSOahRjyfB5TFXOLpUHDEyf7igXMKdW8Vw9YR2AGOaoRUcskIQbiA         Uyqw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=message-id:content-transfer-encoding:date:to:from:mime-version         :dkim-signature;        bh=YzfOgmUF8ZTxTOg78fAi8RcUEXmPnWZd5tbrWZXeBhc=;        fh=9tjteu06/2TKVRfs0jLk8cP1sQdeKNE0XDo2IHEZolE=;        b=ROf1MbnG+r+ye+sWmX3RPrO5LP/NRfWqqId9S6tpd0GZZe8hVPW5VO48D2+Co2+5R/         r0TpA/szljVbj8xThr+YrT5AhHqS3Ez0gvF6hGnbDKEH3zHGfR2y+lIuCE86rFDCvj4Z         AyvbnVdfM3C2+rTMUcz2G5fhHMQXgRiL1TODneGg06wFwcaUN6HQQessS43J6YAfM0QN         h+AFjA4TgHw1m8tIvSPesC82FZs8/tx/vclHDyzXZGMwelYZMwJ3aMgzkYpPUQm76ct5         vRKu+LQxelEnSjWwC7VhGZsBIQ7hK0r7ug8s1KWSmF02nSa6Nyo1aC8aYzw1xlct8sjT         ZPwA==;        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;       dkim=pass header.i=@fbr.gov.pk header.s=keyx2 header.b=D2uoh0Tz;       spf=pass (google.com: domain of noreply@fbr.gov.pk designates 103.125.60.172 as permitted sender) smtp.mailfrom=noreply@fbr.gov.pk;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=fbr.gov.pk
+Return-Path: <noreply@fbr.gov.pk>
+Received-SPF: pass (google.com: domain of noreply@fbr.gov.pk designates 103.125.60.172 as permitted sender) client-ip=103.125.60.172;
+Authentication-Results: mx.google.com;       dkim=pass header.i=@fbr.gov.pk header.s=keyx2 header.b=D2uoh0Tz;       spf=pass (google.com: domain of noreply@fbr.gov.pk designates 103.125.60.172 as permitted sender) smtp.mailfrom=noreply@fbr.gov.pk;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=fbr.gov.pk
+DKIM-Signature: v=1; c=relaxed/relaxed; h=mime-version:from:to:date:content-type:content-transfer-encoding:message-id; d=fbr.gov.pk; s=keyx2; a=rsa-sha256; bh=YzfOgmUF8ZTxTOg78fAi8RcUEXmPnWZd5tbrWZXeBhc=; b=D2uoh0TzHJsxmQYNWb2cGrPQWox3T4O/7RMhZw5TK/NefQuG3ZkkEkKx893iRd1Bs bPcSxkFfXaXiMvs/jhdW+N7+npZXBkD6jUS739Gqr+uFs52fnKJ5xV0xqf8mbrOe1Qd zh48KDfXtj4zZW8svs3jfbEZCuoKpmzG09ouHwi+mY96lT/wh2DTBeqMvWhecuz4qLl AYnSiasFVl7jBOlCkhxWBTdCxL9kNSC+wpadrhbfgbTAXNC/kxylfdblElXXQgjSivI UBFaVBYqoTkPB5UOUiYKPrbcnypB87Ijyi5xNUyX7SOOtZVyrmvf29rgyfaSbz10T/+ ZHj9c8HWA==;
+MIME-Version: 1.0
+From: noreply@fbr.gov.pk
+To: nazduaa89@gmail.com
+Date: Sat, 30 May 2026 15:37:11 +0500
+Content-Type: text/html; charset="utf-8"
+
+--------------------------------------------------------------------------------
+EXTRACTED URLS
+--------------------------------------------------------------------------------
+• https://e.fbr.gov.pk/images/email/applestore_btn.png
+• https://iris.fbr.gov.pk
+• https://apps.apple.com/pk/app/tax-asaan/id1475081010
+• https://e.fbr.gov.pk/images/email/mail_icon.png
+• https://www.facebook.com/people/Federal-Board-of-Revenue/100064688588666/
+• https://e.fbr.gov.pk/images/email/facebook_ico.png
+• https://www.youtube.com/channel/UCN_cl3qHp3t3SxdRZ3r2ZeQ?view_as=subscriber
+• https://e.fbr.gov.pk/images/email/youtube_ico.png
+• https://help.fbr.gov.pk
+• https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap
+• https://play.google.com/store/apps/details?id=com.pral.fbr_varification_system&hl=en&gl=US
+• http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd
+• https://www.pral.com.pk
+• https://e.fbr.gov.pk/images/email/taxasaan.png?no-proxy
+• http://www.w3.org/1999/xhtml
+• https://e.fbr.gov.pk/images/email/fbr_logo.png
+• https://e.fbr.gov.pk/images/email/iris_logo.png
+• https://e.fbr.gov.pk/images/email/PRAL_logo.png
+• https://www.fbr.gov.pk
+• https://www.iris.fbr.gov.pk
+• https://e.fbr.gov.pk/images/email/googleplay_btn.png
+
+--------------------------------------------------------------------------------
+ATTACHMENTS
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+THREAT DETECTION RESULTS
+--------------------------------------------------------------------------------
+⚠️ ⚠️ LINK MISMATCH: 'fbr.gov.pk' links to ''
+⚠️ ⚠️ Suspicious characters in domain: 'help.fbr.gov.pk'
+⚠️ ⚠️ Suspicious characters in domain: 'pral.com.pk'
+
+Total Threats: 3
+
+--------------------------------------------------------------------------------
+RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• DO NOT click any links in this email
+• DO NOT download or open any attachments
+• DO NOT reply to this email
+• Report this email as phishing to your IT department
+• Delete the email immediately

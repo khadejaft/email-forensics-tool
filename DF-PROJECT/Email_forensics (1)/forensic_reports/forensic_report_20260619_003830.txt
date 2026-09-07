@@ -1,0 +1,51 @@
+================================================================================
+EMAIL FORENSICS ANALYSIS REPORT - ADVANCED THREAT DETECTION
+================================================================================
+
+Report Generated: 2026-06-19 00:38:30
+Analyzed File: to umarkhannn.eml
+
+--------------------------------------------------------------------------------
+RISK ASSESSMENT SUMMARY
+--------------------------------------------------------------------------------
+Risk Score: 0/100
+Confidence Score: 100/100
+Risk Level: LOW
+
+--------------------------------------------------------------------------------
+EMAIL HEADERS
+--------------------------------------------------------------------------------
+Delivered-To: muhammadkhansahab10@gmail.com
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id 71dfb90a1353d-5bb6913c1d0sor8699008e0c.6.2026.06.17.16.00.55        for <muhammadkhansahab10@gmail.com>        (Google Transport Security);        Wed, 17 Jun 2026 16:00:55 -0700 (PDT)
+X-Received: by 2002:a05:6122:3b8a:b0:56d:451b:e4dd with SMTP id 71dfb90a1353d-5bbc0d20a68mr2771123e0c.12.1781737254901; Wed, 17 Jun 2026 16:00:54 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1781737255; cv=none;        d=google.com; s=arc-20240605;        b=ac9fDglj9o5NIoPf80UScHI/lVKTn3CeAGDQr/RpbtqXMEVpvikQgyj8EmLQmRJNr+         mdeKjXG4veZ6nf41LvfnqlTe+Hu/8bxWgFLp8VxQqoKPjWuybuK43LGyy6N023UENsD/         jXFQ7/1DisU2VcK+kRFUnP+tyIljTzZA9VkarWEW5WbOFli1SeZDf+rBfslamID6cm+g         INCDHqgK/x0zp4v+O9zMbjZACR9sziWFIzziUKV1ghNlztZnyOjWnbqttvVGkzsABJT+         SXiGEjglzVR7uPLCvzDb0ZPL3O3e724Dx2HCdKENVs0xyb9h8rVejbvzp2zwTtpfD7Uz         o4Rw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;        h=to:subject:message-id:date:from:mime-version:dkim-signature;        bh=7HMuv1J7LLe9N6Q2jTrwcmzTRrFApHExwnwQ7uU33G0=;        fh=KGDvvjtCM+nIlDqKRoBpLx7uhrIh6zL04Gqli4gwTM4=;        b=lozeHBWD02xSmKz5nniYV0Nr90B5m9WP1nG8+EBNla7FGa2Lk+TonxogVgLk6QQ6ud         l4YDXL7Na0XgrikX1NHE3sMHRbwY2SnufK0bH2B8DFYKYpGSdslwGiH+rPpw5p71CcZ8         pVjaUk8t/0XzV7ClAefMa9LFNZj05Zq1zdRmgDDzPzymRhpp6twBYCe/4pufrbe6O3LU         tyXpc91Kbek2eW+2InJeXagboQ9okRioxVClqSnRQmNfH8Dq1n1eOKMhF+/zlDrQTnsE         iem9G6JURPQ8rEspN4b58KCTSaIZd353dXHryctjqkR9BTaZ5WRxMVQuHaDCKGMPbqYZ         YtlA==;        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+Return-Path: <umarkhanno212@gmail.com>
+Received-SPF: pass (google.com: domain of umarkhanno212@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;       dkim=pass header.i=@gmail.com header.s=20251104 header.b=cXKAm1qp;       arc=pass (i=1);       spf=pass (google.com: domain of umarkhanno212@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=umarkhanno212@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20251104; t=1781737255; x=1782342055; dara=google.com;        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject         :date:message-id:reply-to;        bh=7HMuv1J7LLe9N6Q2jTrwcmzTRrFApHExwnwQ7uU33G0=;        b=cXKAm1qpRp4qfX7/SxBQBaQobnovDuyvAPnl00KYK9TaYhwr9w6aFMm0KHO0NPsZ/I         RvW+eVB9VzXAWFHY/Mncc9h2upDDvxFeMb0pjuQMxjqZJDW8dmxA1XXoHIhmJlHPxOZ6         NeHv4f/91FtDs41J6qKggt8ld+t11WrV04hTSd0UpzGHBW6N8SDLtRYaopNpuMwok6Jf         RC7Z7ZrUx9Rjuat8UuXyn8MaFUf9qHADsAkkK6dPCfA6WzwAaeujz2dBFJ6DqWtfdTFI         BVbEc+Uhyf1mj2N2OA83gku1ecrMkuJFbcC6Nqzk5Fkg2BpvhEKYVrg3/R75H3e+ovGz         Ttvg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20251104; t=1781737255; x=1782342055;        h=to:subject:message-id:date:from:mime-version:x-gm-gg         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;        bh=7HMuv1J7LLe9N6Q2jTrwcmzTRrFApHExwnwQ7uU33G0=;        b=qBkE8X0W4gf5oybEKa6HgvIK7lOhwA4v6p3x876FkMtCfiIPxeHn+1uwBcHL6AMnDj         fHkA8MCSc5BEnund5TQM8/VMViqrDD902K1kIJyBVt9ZptIX3SmWTT3noPZCIxN/uXea         ekklmDsN6E3Bx25Az9orm4xiogsIII+8IruVI2NACfwSX6TBFpxEo7aNVqJbnI5NvxkW         B/Bm8RCY5bc2vpWU7poQ6fHqkQcGApSyCDRDhkPn2WKodl7H7PDvzkVRRuz9DwLaSe+z         Ve+ocq7MZhYYWbFB6uunzQ5wd30vaD4ZtAnZDd+dxrrNJdExafLJuDFxMLq3a2AsURQD         JbMQ==
+X-Gm-Message-State: AOJu0YwTyY1NwXQtHo0twqvqcIvM1H7Dy35S7+jQCWmfz+loE8VEXiH9	Vlklaw+qfUQNMOiw7O9jPqOFNqE+6P+Q1JTwruKcjai2qO1Q9rYhzxLtzYtvy7iakkt0ov7Bu9p	UqMYcEl35i4vIc7y7Cjwso4ae6oul3NywCFPpHgHmow==
+X-Gm-Gg: AfdE7ckhB/27JmsQPGrmE6F0Aw1P1GoZ1eOe1Gc8nlIPmB3gxm4JMD+iV7v7beOi1t4	EvJepRS9hzkzea153rysfwwAhzWMpoT7RSqNWhOXx0SznAT3K0/GPkJrDIrgzdTgTDf2VgHukD3	Cuxn+Iz2Q3WrEVnDZ2LwQaTYUUWpy+Z0HVE6kGhAvx3xGVntd1bOJ4YJgLc7jfYC0G3ZYe5yN5S	E2PEaAsU4jaxJSVllOXsaTt3tZkSWLuob5D0C0mmBeAn0EvO1BHP7Wn0F7RPWb71ObJyZJFbrY+	aVQv
+MIME-Version: 1.0
+From: Muhammad Umar Khan <umarkhanno212@gmail.com>
+
+--------------------------------------------------------------------------------
+EXTRACTED URLS
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+ATTACHMENTS
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+THREAT DETECTION RESULTS
+--------------------------------------------------------------------------------
+✅ No threats detected
+
+--------------------------------------------------------------------------------
+RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Email appears safe, but always verify suspicious requests
+• Be cautious of unexpected attachments or links

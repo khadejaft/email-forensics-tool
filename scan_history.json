@@ -1,0 +1,61 @@
+[
+  {
+    "timestamp": "2026-09-07 12:50:10",
+    "file": "sample_email.eml",
+    "from": "sender@example.com",
+    "to": "recipient@example.com",
+    "subject": "Sample Email",
+    "urls": 0,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated"
+    ],
+    "score": 75
+  },
+  {
+    "timestamp": "2026-09-07 12:47:20",
+    "file": "sample_email.eml",
+    "from": "sender@example.com",
+    "to": "recipient@example.com",
+    "subject": "Sample Email",
+    "urls": 0,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated"
+    ],
+    "score": 75
+  },
+  {
+    "timestamp": "2026-09-07 12:21:50",
+    "file": "sample_email.eml",
+    "from": "sender@example.com",
+    "to": "recipient@example.com",
+    "subject": "Sample Email",
+    "urls": 0,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated"
+    ],
+    "score": 75
+  },
+  {
+    "timestamp": "2026-09-07 12:16:31",
+    "file": "Coursera Orientation Session - DLSEI 3.0 Cohort 3.eml",
+    "from": "Khadija Abdullah <khadeejah532@gmail.com>",
+    "to": "Khadija Abdullah <khadeejah532@gmail.com>",
+    "subject": "Fwd: Coursera Orientation Session - DLSEI 3.0 Cohort 3",
+    "urls": 5,
+    "attachments": 0,
+    "threats": 4,
+    "threat_list": [
+      "\u26a0\ufe0f No authentication results found - email not validated",
+      "\u26a0\ufe0f LINK MISMATCH: 't.learn.coursera.org' links to ''",
+      "\u26a0\ufe0f LINK MISMATCH: 'coursera.zoom.us' links to 'link.coursera.org'",
+      "\u26a0\ufe0f Suspicious characters in domain: 'link.coursera.org'"
+    ],
+    "score": 35
+  }
+]

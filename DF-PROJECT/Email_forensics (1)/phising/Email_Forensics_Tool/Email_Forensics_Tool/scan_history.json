@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2026-06-12 22:29:46",
+    "file": "\u23f3 You\u2019ve still got time for this.eml",
+    "from": "TryHackMe <donotreply@tryhackme.com>",
+    "to": "rameenadnanali2004@gmail.com",
+    "subject": "\u23f3 You\u2019ve still got time for this",
+    "urls": 26,
+    "attachments": 0,
+    "threats": 0,
+    "threat_list": [],
+    "score": 100
+  },
+  {
+    "timestamp": "2026-06-12 22:29:14",
+    "file": "Everything You Need, Just a Click Away!.eml",
+    "from": "Sadiq Admin <admin@sadiq.ai>",
+    "to": "rameenadnanali2004@gmail.com",
+    "subject": "Everything You Need, Just a Click Away!",
+    "urls": 11,
+    "attachments": 0,
+    "threats": 0,
+    "threat_list": [],
+    "score": 100
+  },
+  {
+    "timestamp": "2026-06-12 22:18:52",
+    "file": "You shared some Google Account data with Claude.eml",
+    "from": "Google <noreply-accounts@google.com>",
+    "to": "rameenadnanali2004@gmail.com",
+    "subject": "You shared some Google Account data with Claude",
+    "urls": 16,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Phishing keyword: 'security alert'"
+    ],
+    "score": 85
+  },
+  {
+    "timestamp": "2026-06-12 22:17:54",
+    "file": "Be first to hear about new openings.eml",
+    "from": "LinkedIn <linkedin@em.linkedin.com>",
+    "to": "rameenadnanali2004@gmail.com",
+    "subject": "Be first to hear about new openings",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 1,
+    "threat_list": [
+      "\u26a0\ufe0f Suspicious characters in domain: 'delivery-p143253-e1476319.adobeaemcloud.com'"
+    ],
+    "score": 100
+  },
+  {
+    "timestamp": "2026-06-12 22:04:12",
+    "file": "Be first to hear about new openings.eml",
+    "from": "LinkedIn <linkedin@em.linkedin.com>",
+    "to": "rameenadnanali2004@gmail.com",
+    "subject": "Be first to hear about new openings",
+    "urls": 28,
+    "attachments": 0,
+    "threats": 2,
+    "threat_list": [
+      "\u26a0\ufe0f Suspicious characters in domain: 'delivery-p143253-e1476319.adobeaemcloud.com'",
+      "\u26a0\ufe0f URL redirects to: https://www.w3.org/1999/xhtml/"
+    ],
+    "score": 100
+  },
+  {
+    "timestamp": "2026-06-12 21:52:10",
+    "file": "You shared some Google Account data with Claude.eml",
+    "from": "Google <noreply-accounts@google.com>",
+    "to": "rameenadnanali2004@gmail.com",
+    "subject": "You shared some Google Account data with Claude",
+    "urls": 16,
+    "attachments": 0,
+    "threats": 4,
+    "threat_list": [
+      "\u26a0\ufe0f Suspicious characters in domain: 'c.gle'",
+      "\u26a0\ufe0f Suspicious characters in domain: 'lh3.googleusercontent.com'",
+      "\u26a0\ufe0f Suspicious characters in domain: 'fonts.googleapis.com'",
+      "\u26a0\ufe0f Phishing keyword: 'security alert'"
+    ],
+    "score": 85
+  }
+]

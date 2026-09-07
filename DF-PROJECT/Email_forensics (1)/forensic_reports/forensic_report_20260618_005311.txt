@@ -1,0 +1,48 @@
+================================================================================
+EMAIL FORENSICS ANALYSIS REPORT - ADVANCED THREAT DETECTION
+================================================================================
+
+Report Generated: 2026-06-18 00:53:11
+Analyzed File: sample_email.eml
+
+--------------------------------------------------------------------------------
+RISK ASSESSMENT SUMMARY
+--------------------------------------------------------------------------------
+Risk Score: 0/100
+Confidence Score: 100/100
+Risk Level: LOW
+
+--------------------------------------------------------------------------------
+EMAIL HEADERS
+--------------------------------------------------------------------------------
+From: sender@example.com
+To: recipient@example.com
+Subject: Sample Email
+Date: Wed, 17 Jun 2026 19:11:16 -0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+--------------------------------------------------------------------------------
+EXTRACTED URLS
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+ATTACHMENTS
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+THREAT DETECTION RESULTS
+--------------------------------------------------------------------------------
+⚠️ ⚠️ No authentication results found - email not validated
+
+Total Threats: 1
+
+--------------------------------------------------------------------------------
+RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• DO NOT click any links in this email
+• DO NOT download or open any attachments
+• DO NOT reply to this email
+• Report this email as phishing to your IT department
+• Delete the email immediately
